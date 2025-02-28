@@ -12,7 +12,27 @@ const Hero = () => {
           officia fuga! Lorem ipsum dolor sit amet consectetur adipisicing elit.
           Lorem ipsum, dolor sit amet consectetur adipisicing elit.
         </p>
-        <button
+
+        <a
+          class="flex items-center justify-center w-full md:w-2/12 space-x-2 bg-blue-500 text-white py-2 px-4 rounded mt-4 mx-auto"
+          href="src\assets\Resume_of_Md_Abu_Bakar_Siddique_Sadi.pdf"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth="2"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          >
+            <path d="M3 15v4c0 1.1.9 2 2 2h14a2 2 0 0 0 2-2v-4M17 9l-5 5-5-5M12 12.8V2.5" />
+          </svg>
+          <span>Resume</span>
+        </a>
+        {/* <button
           type="button"
           className="flex items-center justify-center space-x-2 bg-blue-500 text-white py-2 px-4 rounded mt-4 mx-auto"
         >
@@ -30,7 +50,7 @@ const Hero = () => {
             <path d="M3 15v4c0 1.1.9 2 2 2h14a2 2 0 0 0 2-2v-4M17 9l-5 5-5-5M12 12.8V2.5" />
           </svg>
           <span>Download</span>
-        </button>
+        </button> */}
       </div>
     </section>
   );
