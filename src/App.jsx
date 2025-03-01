@@ -1,14 +1,13 @@
 // import "./App.css";
 import Hero from "./components/hero";
+import Footer from "./components/Footer";
 
 function App() {
   return (
     <>
       <div>
         <Hero />
-        <Hero />
-        <Hero />
-        <Hero />
+        <Footer />
       </div>
     </>
   );
