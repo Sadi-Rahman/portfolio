@@ -2,15 +2,15 @@
 import Hero from "./components/hero";
 import Projects from "./components/Projects";
 import Footer from "./components/Footer";
+import About from "./components/About";
 
 function App() {
   return (
     <>
       <div>
         <Hero />
-
+        <About />
         <Projects />
-
         <Footer />
       </div>
     </>
