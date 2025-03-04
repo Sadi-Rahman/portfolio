@@ -2,7 +2,10 @@ import React from "react";
 
 const About = () => {
   return (
-    <section class="bg-gray-900 max-w-[99%] mx-auto m-1 rounded">
+    <section
+      id="about"
+      class="bg-gray-900 max-w-[99%] mx-auto m-1 rounded min-h-dvh flex items-center justify-center motion-preset-fade motion-duration-1000"
+    >
       <div class="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16">
         <h1 class="text-white font-poppins text-3xl ">ABOUT ME</h1>
         <p class="text-center text-wrap text-white max-w-2xl p-6 mx-auto">
