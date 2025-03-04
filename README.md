@@ -7,4 +7,4 @@
 - [Flowbite](https://flowbite.com/docs/components/)
 - [Iconsvg](https://iconsvg.xyz/)
 
-### Code Sand Box Preview [HERE}(https://c5ldtw-5173.csb.app/)
+### Code Sand Box Preview [HERE](https://c5ldtw-5173.csb.app/)
