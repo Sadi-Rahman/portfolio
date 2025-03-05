@@ -4,7 +4,7 @@ const Projects = () => {
   return (
     <section
       id="project"
-      class="bg-gray-900 max-w-[99%] mx-auto m-1 rounded min-h-dvh flex flex-col items-center justify-center motion-preset-fade motion-duration-1000"
+      class="bg-gray-900 opacity-90 max-w-[99%] mx-auto m-1 rounded min-h-dvh flex flex-col items-center justify-center"
     >
       <div class="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16">
         <h1 class="text-white font-poppins text-3xl ">PROJECTS</h1>

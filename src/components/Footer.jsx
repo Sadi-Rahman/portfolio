@@ -2,7 +2,10 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer id="footer" className="bg-gray-900 max-w-[99%] mx-auto m-1 rounded">
+    <footer
+      id="footer"
+      className="bg-gray-900 opacity-90 max-w-[99%] mx-auto m-1 rounded"
+    >
       <div class="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16">
         <h1 class="text-white font-poppins text-3xl ">CONTACT ME</h1>
       </div>
