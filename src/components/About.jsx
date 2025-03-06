@@ -16,7 +16,7 @@ const About = () => {
           and development. I am always eager to learn new technologies and
           improve my skills.
         </p>
-        <div className="grid grid-cols-1 gap-4 lg:grid-cols-3 lg:gap-8 p-8">
+        <div className="grid grid-cols-1 gap-4 lg:grid-cols-4 lg:gap-8 p-8">
           <div className="h-auto min-w-0 w-64 rounded-lg bg-gray-100">
             <h1 class="text-xl px-2 md:text-xl pl-2 my-2 border-l-4 font-bold border-teal-400  dark:text-gray-900">
               Experience
@@ -60,9 +60,18 @@ const About = () => {
             </h1>
             <ul class="max-w-xs flex flex-col">
               <li class="inline-flex text-start items-center gap-x-2 py-3 px-4 text-sm font-medium bg-white border border-gray-200 text-gray-800 -mt-px first:rounded-t-lg first:mt-0 last:rounded-b-lg">
-                Walking Pattern Recognition Using Generative Adversarial Network{" "}
-                <br />
-                DOI: 10.5120/ijca2022922510
+                <p>
+                  Walking Pattern Recognition Using Generative Adversarial
+                  Network
+                  <br />
+                  <a
+                    class="no-underline hover:underline"
+                    href="http://dx.doi.org/10.5120/ijca2022922510"
+                    target="_blank"
+                  >
+                    DOI: 10.5120/ijca2022922510
+                  </a>
+                </p>
               </li>
             </ul>
           </div>
