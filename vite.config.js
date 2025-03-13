@@ -10,4 +10,5 @@ export default defineConfig({
       restart: ["./src/**/*"],
     }),
   ],
+  base: "/portfolio",
 });
