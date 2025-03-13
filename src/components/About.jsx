@@ -17,50 +17,50 @@ const About = () => {
           improve my skills.
         </p>
         <div className="grid grid-cols-1 gap-4 lg:grid-cols-4 lg:gap-8 p-8">
-          <div className="h-auto min-w-0 w-64 rounded-lg bg-gray-100">
-            <h1 class="text-xl px-2 md:text-xl pl-2 my-2 border-l-4 font-bold border-teal-400  dark:text-gray-900">
+          <div className="h-auto min-w-0 w-64 rounded-lg bg-gray-800">
+            <h1 class="text-xl px-2 md:text-xl pl-2 my-2 border-l-4 font-bold border-teal-400  dark:text-gray-100">
               Experience
             </h1>
             <ul class="max-w-xs flex flex-col">
-              <li class="inline-flex items-center text-start gap-x-2 py-3 px-4 text-sm font-medium bg-white border border-gray-200 text-gray-800 -mt-px first:rounded-t-lg first:mt-0 last:rounded-b-lg">
+              <li class="inline-flex items-center text-start gap-x-2 py-3 px-4 text-sm font-medium bg-gray-800 border border-gray-700 text-gray-100 -mt-px first:rounded-t-lg first:mt-0 last:rounded-b-lg">
                 Teaching Assistant <br /> American International
                 University-Bangladesh (AIUB)
               </li>
             </ul>
           </div>
-          <div className="h-auto min-w-0 w-64 rounded-lg bg-gray-100">
-            <h1 class="text-xl px-2 md:text-xl pl-2 my-2 border-l-4 font-bold border-teal-400  dark:text-gray-900">
+          <div className="h-auto min-w-0 w-64 rounded-lg bg-gray-800">
+            <h1 class="text-xl px-2 md:text-xl pl-2 my-2 border-l-4 font-bold border-teal-400  dark:text-gray-100">
               Skills
             </h1>
             <ul class="max-w-xs flex flex-col">
-              <li class="inline-flex items-center gap-x-2 py-3 px-4 text-sm font-medium bg-white border border-gray-200 text-gray-800 -mt-px first:rounded-t-lg first:mt-0 last:rounded-b-lg">
+              <li class="inline-flex items-center gap-x-2 py-3 px-4 text-sm font-medium bg-gray-800 border border-gray-700 text-gray-100 -mt-px first:rounded-t-lg first:mt-0 last:rounded-b-lg">
                 JavaScript, React JS
               </li>
-              <li class="inline-flex items-center gap-x-2 py-3 px-4 text-sm font-medium bg-white border border-gray-200 text-gray-800 -mt-px first:rounded-t-lg first:mt-0 last:rounded-b-lg">
+              <li class="inline-flex items-center gap-x-2 py-3 px-4 text-sm font-medium bg-gray-800 border border-gray-700 text-gray-100 -mt-px first:rounded-t-lg first:mt-0 last:rounded-b-lg">
                 Python, C++
               </li>
-              <li class="inline-flex text-start items-center gap-x-2 py-3 px-4 text-sm font-medium bg-white border border-gray-200 text-gray-800 -mt-px first:rounded-t-lg first:mt-0 last:rounded-b-lg">
+              <li class="inline-flex text-left items-center gap-x-2 py-3 px-4 text-sm font-medium bg-gray-800 border border-gray-700 text-gray-100 -mt-px first:rounded-t-lg first:mt-0 last:rounded-b-lg">
                 Machine Learning Algorithms: CNN, KNN, YOLO, GAN
               </li>
             </ul>
           </div>
-          <div className="h-auto min-w-0 w-64 rounded-lg bg-gray-100">
-            <h1 class="text-xl px-2 md:text-xl pl-2 my-2 border-l-4 font-bold border-teal-400  dark:text-gray-900">
+          <div className="h-auto min-w-0 w-64 rounded-lg bg-gray-800">
+            <h1 class="text-xl px-2 md:text-xl pl-2 my-2 border-l-4 font-bold border-teal-400  dark:text-gray-100">
               Awards
             </h1>
             <ul class="max-w-xs flex flex-col">
-              <li class="inline-flex text-start items-center gap-x-2 py-3 px-4 text-sm font-medium bg-white border border-gray-200 text-gray-800 -mt-px first:rounded-t-lg first:mt-0 last:rounded-b-lg">
-                Top 10 Finalist – Digital Bangladesh Mela 2023
+              <li class="inline-flex text-left items-center gap-x-2 py-3 px-4 text-sm font-medium bg-gray-800 border border-gray-700 text-gray-100 -mt-px first:rounded-t-lg first:mt-0 last:rounded-b-lg">
+                Top 10 Finalist <br /> Digital Bangladesh Mela 2023
               </li>
             </ul>
           </div>
-          <div className="h-auto min-w-0 w-64 rounded-lg bg-gray-100">
-            <h1 class="text-xl px-2 md:text-xl pl-2 my-2 border-l-4 font-bold border-teal-400  dark:text-gray-900">
+          <div className="h-auto min-w-0 w-64 rounded-lg bg-gray-800">
+            <h1 class="text-xl px-2 md:text-xl pl-2 my-2 border-l-4 font-bold border-teal-400  dark:text-gray-100">
               Publication
             </h1>
             <ul class="max-w-xs flex flex-col">
-              <li class="inline-flex text-start items-center gap-x-2 py-3 px-4 text-sm font-medium bg-white border border-gray-200 text-gray-800 -mt-px first:rounded-t-lg first:mt-0 last:rounded-b-lg">
-                <p>
+              <li class="inline-flex items-center  gap-x-2 py-3 px-4 text-sm font-medium bg-gray-800 border border-gray-700 text-gray-100 -mt-px first:rounded-t-lg first:mt-0 last:rounded-b-lg">
+                <p class="text-left">
                   Walking Pattern Recognition Using Generative Adversarial
                   Network
                   <br />

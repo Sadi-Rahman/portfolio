@@ -1,5 +1,5 @@
 import React from "react";
-
+import { motion } from "framer-motion";
 const Footer = () => {
   return (
     <footer
@@ -45,14 +45,20 @@ const Footer = () => {
             </div>
           </div>
 
-          <div className="flex flex-col items-center gap-4">
+          <motion.div
+            className="flex flex-col items-center gap-4"
+            initial={{ opacity: 0, x: 50 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            viewport={{ once: false, amount: 0.4 }}
+            transition={{ duration: 0.4, ease: "easeOut" }}
+          >
             <a
               href="src\assets\Resume_of_Md_Abu_Bakar_Siddique_Sadi.pdf"
               className="border border-white px-8 py-3 text-white font-semibold text-lg rounded-md hover:bg-white hover:text-gray-900 transition-colors"
             >
               GET MY RÉSUMÉ
             </a>
-          </div>
+          </motion.div>
         </div>
       </div>
     </footer>
