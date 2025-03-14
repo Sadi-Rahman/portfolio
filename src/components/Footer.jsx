@@ -53,8 +53,10 @@ const Footer = () => {
             transition={{ duration: 0.4, ease: "easeOut" }}
           >
             <a
-              href="src\assets\Resume_of_Md_Abu_Bakar_Siddique_Sadi.pdf"
               className="border border-white px-8 py-3 text-white font-semibold text-lg rounded-md hover:bg-white hover:text-gray-900 transition-colors"
+              href="https://drive.google.com/file/d/1Ffj85TdI1GNzffBslGM0DpUtMgOfKKkE/view?usp=sharing"
+              target="_blank"
+              rel="noreferrer"
             >
               GET MY RÉSUMÉ
             </a>
