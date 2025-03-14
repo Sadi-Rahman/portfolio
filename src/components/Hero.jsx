@@ -22,6 +22,17 @@ const Hero = () => {
           I'm a computer science enthusiast. Always curious, always learning.
         </p>
 
+        {/* <div className="flex flex-col items-center gap-4">
+          <a
+            href="href=https://drive.google.com/file/d/1Ffj85TdI1GNzffBslGM0DpUtMgOfKKkE/view?usp=sharing"
+            target="_blank"
+            rel="noreferrer"
+            className="border border-white px-5 py-2 text-white font-semibold text-lg rounded-md hover:bg-white hover:text-gray-900 transition-colors"
+          >
+            MY RÉSUMÉ
+          </a>
+        </div> */}
+
         <div className="flex flex-col items-center gap-4">
           <a
             href="#footer"
