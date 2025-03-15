@@ -9,14 +9,14 @@ const Projects = () => {
       <div class="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16">
         <h1 class="text-white font-poppins text-3xl ">PROJECTS</h1>
       </div>
-      <motion.div
-        class="flex flex-wrap justify-center"
-        initial={{ opacity: 0, y: 50 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        viewport={{ once: false, amount: 0.5 }}
-        transition={{ duration: 0.3, ease: "easeOut" }}
-      >
-        <div class="p-4 max-w-sm ">
+      <div class="flex flex-wrap justify-center">
+        <motion.div
+          class="p-4 max-w-sm"
+          initial={{ opacity: 0, y: 50 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: false, amount: 0.5 }}
+          transition={{ duration: 0.4, ease: "easeOut" }}
+        >
           <div class="flex rounded-lg h-full dark:bg-gray-800  bg-teal-400 p-8 flex-col">
             <div class="flex items-center mb-3 ">
               <h2 class="text-white dark:text-white text-lg font-medium">
@@ -48,9 +48,15 @@ const Projects = () => {
               </a>
             </div>
           </div>
-        </div>
+        </motion.div>
 
-        <div class="p-4 max-w-sm">
+        <motion.div
+          class="p-4 max-w-sm"
+          initial={{ opacity: 0, y: 50 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: false, amount: 0.5 }}
+          transition={{ duration: 0.5, ease: "easeOut" }}
+        >
           <div class="flex rounded-lg h-full dark:bg-gray-800 bg-teal-400 p-8 flex-col">
             <div class="flex items-center mb-3">
               <h2 class="text-white dark:text-white text-lg font-medium">
@@ -82,9 +88,15 @@ const Projects = () => {
               </a>
             </div>
           </div>
-        </div>
+        </motion.div>
 
-        <div class="p-4 max-w-sm">
+        <motion.div
+          class="p-4 max-w-sm"
+          initial={{ opacity: 0, y: 50 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: false, amount: 0.5 }}
+          transition={{ duration: 0.6, ease: "easeOut" }}
+        >
           <div class="flex rounded-lg h-full dark:bg-gray-800 bg-teal-400 p-8 flex-col">
             <div class="flex items-center mb-3">
               <h2 class="text-white dark:text-white text-lg font-medium">
@@ -116,8 +128,8 @@ const Projects = () => {
               </a>
             </div>
           </div>
-        </div>
-      </motion.div>
+        </motion.div>
+      </div>
     </section>
   );
 };

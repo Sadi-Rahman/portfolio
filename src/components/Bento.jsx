@@ -77,7 +77,7 @@ const Bento = () => {
                       <br />
                       <a
                         className="no-underline hover:underline"
-                        href="http://dx.doi.org/10.5120/ijca2022922510"
+                        href="https://www.researchgate.net/publication/366573631_Walking_Pattern_Recognition_using_Generative_Adversarial_Network"
                         target="_blank"
                       >
                         DOI: 10.5120/ijca2022922510

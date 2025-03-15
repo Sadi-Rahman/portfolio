@@ -54,7 +54,7 @@ const Footer = () => {
           >
             <a
               className="border border-white px-8 py-3 text-white font-semibold text-lg rounded-md hover:bg-white hover:text-gray-900 transition-colors"
-              href="https://drive.google.com/file/d/1Ffj85TdI1GNzffBslGM0DpUtMgOfKKkE/view?usp=sharing"
+              href="https://drive.google.com/file/d/111FBZU1pupaPCivC86ZT2KbtMO6urIe3/view?usp=sharing"
               target="_blank"
               rel="noreferrer"
             >

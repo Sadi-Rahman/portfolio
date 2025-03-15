@@ -19,9 +19,9 @@ function App() {
   if (loading) {
     return (
       <div className="flex gap-2 justify-center items-center h-screen">
-        <div class="w-5 h-5 rounded-full animate-pulse bg-blue-600"></div>
-        <div class="w-5 h-5 rounded-full animate-pulse bg-blue-600"></div>
-        <div class="w-5 h-5 rounded-full animate-pulse bg-blue-600"></div>
+        <div class="w-5 h-5 rounded-full animate-bounce bg-blue-600"></div>
+        <div class="w-5 h-5 rounded-full animate-bounce bg-blue-600"></div>
+        <div class="w-5 h-5 rounded-full animate-bounce bg-blue-600"></div>
       </div>
     );
   }
