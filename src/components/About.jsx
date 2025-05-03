@@ -75,6 +75,12 @@ const About = () => {
               </li>
             </ul>
           </div>
+
+          <div className="mt-8 flex justify-center">
+            <div className="flex items-center">
+              <i className="devicon-javascript-plain text-2xl text-white opacity-50"></i>
+            </div>
+          </div>
         </div>
       </div>
     </section>

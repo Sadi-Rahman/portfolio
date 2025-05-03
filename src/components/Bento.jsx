@@ -67,7 +67,7 @@ const Bento = () => {
                 viewport={{ once: false, amount: 0.6 }}
                 transition={{ duration: 0.6, ease: "easeOut" }}
               >
-                <li className="flex items-center gap-x-2 py-3 px-4 text-sm font-medium bg-gray-800 border border-gray-700 text-gray-100 mx-auto md:mx-0">
+                <li className="flex rounded-lg items-center gap-x-2 py-3 px-4 text-sm font-medium bg-gray-800 border border-gray-700 text-gray-100 mx-auto md:mx-0">
                   {index === 0 && "Teaching Assistant, AIUB"}
                   {index === 1 &&
                     "Top 10 Finalist, Digital Bangladesh Mela 2023"}
