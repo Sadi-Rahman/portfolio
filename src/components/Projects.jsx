@@ -248,7 +248,7 @@ const Projects = () => {
             </div>
           </div>
         </motion.div>
-        <div className="mt-8 flex justify-center">
+        <div className="mt-8 pb-8 flex justify-center">
           <div className="flex items-center space-x-2 sm:space-x-4 md:space-x-6">
             <i className="devicon-javascript-plain text-4xl text-white opacity-50"></i>
             <i className="devicon-react-original text-4xl text-white opacity-50"></i>
